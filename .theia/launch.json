@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Kubernetes: Run/Debug - dev",
+        "type": "cloudcode.kubernetes",
+        "request": "launch",
+        "skaffoldConfig": "${workspaceFolder}/skaffold.yaml",
+        "profile": "dev",
+        "watch": true,
+        "cleanUp": true,
+        "portForward": true,
+        "imageRegistry": "gcr.io/qwiklabs-gcp-02-b20fd0aad7a2"
+    }
+]
+}
